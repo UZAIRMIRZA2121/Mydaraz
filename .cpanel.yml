@@ -1,0 +1,6 @@
+	
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/msonsmed/public_html
+    - /bin/cp -R images $DEPLOYPATH
